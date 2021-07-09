@@ -11,7 +11,7 @@
     define('APPROOT', dirname(dirname(__FILE__)));
 
     //URLROOT (Dynamic links)
-    define('URLROOT', 'http://192.168.64.3/mvcframework');
+    define('URLROOT', 'http://localhost/mvcframework');
 
     //Sitename
     define('SITENAME', 'MVC Framework');
