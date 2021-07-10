@@ -102,7 +102,6 @@ class Users extends Controller {
 
     public function login() {
         $data = [
-            'title' => 'Login page',
             'username' => '',
             'password' => '',
             'usernameError' => '',

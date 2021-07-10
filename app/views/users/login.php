@@ -33,7 +33,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href=".../public/css/login.css" rel="stylesheet">
+    <link href="" rel="stylesheet">
   </head>
   <body class="text-center">
     

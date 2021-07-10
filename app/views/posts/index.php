@@ -1,9 +1,11 @@
 
+  <p class="options">Estas registrado? <a href="<?php echo URLROOT; ?>/users/login">Ingresa a tu cuenta</a></p>
+
 
 <div class="container">
     <?php if(isLoggedIn()): ?>
         <a class="btn green" href="<?php echo URLROOT; ?>/posts/create">
-            Create
+            Crea
         </a>
     <?php endif; ?>
 
@@ -19,14 +21,20 @@
                     <input type="submit" name="delete" value="Delete" class="btn red">
                 </form>
             <?php endif; ?>
+            <div class="container signin">
+
+  </div>
+
             <h2>
                 <?php echo $post->title; ?>
             </h2>
 
-            <h3>
-                <?php echo 'Created on: ' . date('F j h:m', strtotime($post->created_at)) ?>
-            </h3>
-
+            <p>
+                <?php echo 'Creado el: ' . date('F j h:m', strtotime($post->created_at)) ?>
+            </p>
+            <p>
+                <?php echo "Autor:" . $post->autor ?>
+            </p>
             <p>
                 <?php echo $post->body ?>
             </p>

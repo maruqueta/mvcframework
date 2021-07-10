@@ -2,7 +2,7 @@
 
 <div class="container center">
     <h1>
-        Update post
+        Blog
     </h1>
 
     <form
